@@ -1,0 +1,54 @@
+nav {
+    background-image: url('https://www.freeiconspng.com/thumbs/survey-icon/survey-icon-25.png');
+    background-size: 4rem;
+    background-repeat: no-repeat;
+    background-color: rgba(28, 98, 164, 0.8);
+    padding: 1.5rem 4rem;
+}
+nav a {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+nav a:hover {
+    font-weight: bold;
+    background-color: black;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+p, form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+}
+button {
+    border: none;
+    border-radius: 3px;
+    color: aliceblue;
+    background-color: rgba(55, 113, 168, 0.8);
+    padding: 1rem 1.5rem;
+}
+.messages {
+    padding: 1rem;
+    font-size: 1.5rem;
+    max-width: 15rem;
+    margin: 2rem 3rem;
+    background-color: rgba(80, 157, 228, 0.515);
+    border-radius: .5rem;
+    box-shadow: 0 2px 1px rgba(0,0,0,.2);
+}
+/* .messages .success {
+    background-color: ;
+} */
+form {
+    margin: 5%;
+}
+body {
+    margin: 0;
+}
+/* form {
+    display: flex;
+} */

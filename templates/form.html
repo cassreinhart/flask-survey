@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %} {{question.question}} {% endblock %}
+
+{% block content %}
+<!-- <ul>
+    {% for movie in movies %}
+    <li>{{movie}}</li>
+    {% endfor %}
+</ul> -->
+
+<form action="/answer" method="POST">
+    <h4>{{question.question}}</h4>
+    
+    {% for choice in question.choices %}
+    <label for="answer">
+        <input type="radio" name="answer" value="{{ choice }}"> {{ choice }}
+    </label>
+    {% endfor %}
+    </select>
+    <button>Submit</button>
+</form>
+{% endblock %}
